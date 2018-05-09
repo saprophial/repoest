@@ -34,3 +34,9 @@ setting up git:
 follow guide to set up SSH
 use guide in new repository to view remote git operations
 ** need to make repository in web always
+
+adding a new file:
+>> cp 'file/location/noext' 'local/repo/path'   # copy file over
+>> git add .
+>> git commit -m "Add existing file"
+>> git push -u origin master
