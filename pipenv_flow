@@ -1,0 +1,36 @@
+install python versions via pyenv
+pyenv install 3.6.5         # or other vers number
+pyenv global 2.7.14         # or other vers number; default version
+
+make project directory
+>> mkdir projectname
+>> cd projectname
+
+create pipenv environment with version
+>> pipenv --python 3.6.5
+
+activate virtual environment
+>> pipenv shell
+
+install dependencies
+>> pipenv install packagename
+
+exit virtualenv
+>> exit
+
+set up pyenv as needed
+in working directory:
+>> pyenv local <version>
+like:
+>> pyenv local 3.6.5
+
+https://jacobian.org/writing/python-environment-2018/
+
+set up vim
+set up github
+test github
+
+setting up git:
+follow guide to set up SSH
+use guide in new repository to view remote git operations
+** need to make repository in web always
